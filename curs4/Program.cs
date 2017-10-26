@@ -6,7 +6,7 @@ namespace curs4
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello Kitty Andrei!");
+            Console.WriteLine("Andrei edited!");
         }
     }
 }
