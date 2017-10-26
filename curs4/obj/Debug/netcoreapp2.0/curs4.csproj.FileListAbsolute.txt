@@ -1,0 +1,10 @@
+D:\CevaCloneCuGit\curs4\bin\Debug\netcoreapp2.0\curs4.deps.json
+D:\CevaCloneCuGit\curs4\bin\Debug\netcoreapp2.0\curs4.runtimeconfig.json
+D:\CevaCloneCuGit\curs4\bin\Debug\netcoreapp2.0\curs4.runtimeconfig.dev.json
+D:\CevaCloneCuGit\curs4\bin\Debug\netcoreapp2.0\curs4.dll
+D:\CevaCloneCuGit\curs4\bin\Debug\netcoreapp2.0\curs4.pdb
+D:\CevaCloneCuGit\curs4\obj\Debug\netcoreapp2.0\curs4.csproj.CoreCompileInputs.cache
+D:\CevaCloneCuGit\curs4\obj\Debug\netcoreapp2.0\curs4.AssemblyInfoInputs.cache
+D:\CevaCloneCuGit\curs4\obj\Debug\netcoreapp2.0\curs4.AssemblyInfo.cs
+D:\CevaCloneCuGit\curs4\obj\Debug\netcoreapp2.0\curs4.dll
+D:\CevaCloneCuGit\curs4\obj\Debug\netcoreapp2.0\curs4.pdb
