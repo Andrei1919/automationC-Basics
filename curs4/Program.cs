@@ -7,43 +7,33 @@ namespace curs4
     {
         static void Main(string[] args)
         {
-            var cat1 = new Kitty()
+            var cat1 = new Cat()
             {
                 Name = "Tomas"
             };
             //cat1.Name = "Tomas";
-            var cat2 = new Kitty()
+            var cat2 = new Cat()
             {
                 Name = "Viorel"
             };
-            var cat3 = new Kitty()
+            var cat3 = new Cat()
             {
                 Name = "Garfield"
             };
+            var dog1 = new Dog()
+            {
+                Name = "Totto"
+            };
 
-            var catsList = new List<Kitty>();
+            var catsList = new List<Cat>();
             catsList.Add(cat1);
             catsList.Add(cat2);
             catsList.Add(cat3);
 
-            for(var i=0;i<catsList.Count;i++)
-            {
-                catsList[i].MakeNoise();
-            }
-
             foreach(var cat in catsList)
+            {
                 cat.MakeNoise();
+            }
         }
-    }
-
-    public class Kitty
-    {
-        public string Name{get;set;}
-
-        public void MakeNoise(){
-            Console.WriteLine(Name + " says Miawww");
-        }
-
-
     }
 }
