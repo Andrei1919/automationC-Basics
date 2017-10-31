@@ -7,6 +7,7 @@ namespace curs4
     {
         static void Main(string[] args)
         {
+
             var cat1 = new Cat()
             {
                 Name = "Tomas"
@@ -24,15 +25,22 @@ namespace curs4
             {
                 Name = "Totto"
             };
+            var hamster1 = new Hamster()
+            {
+                Name = "Hamsy"
+            };
 
-            var catsList = new List<Cat>();
-            catsList.Add(cat1);
-            catsList.Add(cat2);
-            catsList.Add(cat3);
+            var animalList = new List<IAnimal>();
+            animalList.Add(cat1);
+            animalList.Add(cat2);
+            animalList.Add(cat3);
+            animalList.Add(dog1);
+            animalList.Add(hamster1);
 
-            foreach(var cat in catsList)
+            foreach (var cat in animalList)
             {
                 cat.MakeNoise();
+                Console.WriteLine(cat+ " eats "+  cat.Eat());
             }
         }
     }
