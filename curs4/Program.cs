@@ -12,7 +12,10 @@ namespace curs4
             {
                 Name = "Tomas"
             };
+
+            cat1.Breath();
             //cat1.Name = "Tomas";
+            
             var cat2 = new Cat()
             {
                 Name = "Viorel"
@@ -30,17 +33,17 @@ namespace curs4
                 Name = "Hamsy"
             };
 
-            var animalList = new List<IAnimal>();
+            var animalList = new List<AnimalBase>();
             animalList.Add(cat1);
             animalList.Add(cat2);
             animalList.Add(cat3);
             animalList.Add(dog1);
             animalList.Add(hamster1);
 
-            foreach (var cat in animalList)
+            foreach (var animal in animalList)
             {
-                cat.MakeNoise();
-                Console.WriteLine(cat+ " eats "+  cat.Eat());
+                animal.Breath();
+                animal.Bites();
             }
         }
     }

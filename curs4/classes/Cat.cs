@@ -1,6 +1,6 @@
 using System;
 
-public class Cat : IAnimal
+public class Cat : AnimalBase,IAnimal
 {
     public string Name { get; set; }
 
@@ -12,5 +12,10 @@ public class Cat : IAnimal
     public string Eat()
     {
         return "mice";
+    }
+
+    public override void Bites()
+    {
+        Console.WriteLine("Medium bite");
     }
 }

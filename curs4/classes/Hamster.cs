@@ -1,5 +1,5 @@
 using System;
-public class Hamster : IAnimal
+public class Hamster : AnimalBase,IAnimal
 {
     public string Name { get; set; }
     public void MakeNoise()
@@ -9,5 +9,10 @@ public class Hamster : IAnimal
     public string Eat()
     {
         return "carrots"; 
+    }
+
+    public override void Bites()
+    {
+        Console.WriteLine("Fatal bite");
     }
 }
